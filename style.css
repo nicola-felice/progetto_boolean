@@ -1,0 +1,105 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* metto l'immagine come sfondo e centro contenuti */
+.pageWrapper {
+    background-image: url(./images/background.jpg);
+    background-size: cover;
+    background-position: top;
+
+    min-height: 100vh;
+    color: white;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* stile contenuto principale */
+.mainContent {
+    background-color: rgba(0, 0, 0, 0.479);
+    padding: 3rem 6rem;
+    border-radius: .75rem;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    width: 65%; min-height: 70%;
+}
+
+
+
+/* ridimensiono il logo */
+.mainContent img {
+    max-width: 170px;
+}
+
+/* faccio il titolo verde e lo centro */
+.optionsContainer {
+    color: lime;
+    width: 100%;
+}
+
+.optionsContainer h2 {
+    text-align: center;
+    margin-bottom: .25rem;
+}
+
+/* stile bottoni e contenitore */
+.buttonsContainer {
+    display: flex;
+    justify-content: center;
+
+    background-color: lime;
+    padding: .5rem;
+}
+
+.buttonsContainer button {
+    padding: 0 .25rem;
+    margin: 0 .5rem;
+    cursor: pointer;
+    text-transform: capitalize;
+}
+
+/* sezioni dati monopattino stile */
+.datiMonopattino {
+    width: 100%;
+    padding: 1rem 0;
+}
+
+.datiMonopattino h4 {
+    text-transform: capitalize;
+    font-size: 1.25rem;
+    display: inline-block;
+    margin-left: 5px;
+}
+
+.datiMonopattino input {
+    cursor: pointer;
+}
+
+/* stile barra stato della carica */
+.statoCarica {
+    height: 30px;
+    border-radius: .25rem;
+}
+
+.caricaGino22 {
+    background-color: orange;
+    width: 40%;
+}
+
+.caricaMike24 {
+    background-color: green;
+    width: 75%;
+}
+
+.caricaFede154 {
+    background-color:rgb(199, 21, 56);
+    width: 20%;
+}
